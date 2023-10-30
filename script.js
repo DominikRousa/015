@@ -39,7 +39,7 @@ function ageCalculator() {
     
     var age = Math.abs(year - 1970);
 
-    if (age >= 18 || userinput >= 18) {
+    if (age >= 18 || userinput >= 18 && userinput < 100) {
         result = "prošel jsi"
     } else {
         result = "neprošel jsi"
